@@ -1,0 +1,15 @@
+li:nth-child(odd)::before {
+  content: "[USER] ";
+}
+li:nth-child(odd) {
+  color: green;
+  font-size: large;
+}
+
+li:nth-child(even)::before {
+  content: "[AI] ";
+}
+li:nth-child(even) {
+  color: red;
+  font-size: small;
+}
